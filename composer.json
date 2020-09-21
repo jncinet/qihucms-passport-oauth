@@ -1,0 +1,30 @@
+{
+  "name": "jncinet/qihucms-passport-oauth",
+  "description": "qihucms passport oauth api.",
+  "keywords": [
+    "qihucms",
+    "passport",
+    "oauth"
+  ],
+  "homepage": "https://www.qihucms.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhangye",
+      "email": "y@qilephp.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Qihucms\\PassportAuth\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Qihucms\\PassportAuth\\PassportAuthServiceProvider"
+      ]
+    }
+  }
+}
